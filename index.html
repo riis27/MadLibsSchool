@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mad Libs</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Margarine&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>If I Ran the School...</h1>
+        
+        <div class="grid-container" style="display: flex; flex-wrap: wrap;">
+            <div class="grid-item" style="flex: 1 0 25%;">
+                <label for="noun1">Enter a plural noun:</label>
+                <input type="text" id="noun1" required placeholder="e.g., cats">
+            </div>
+            <div class="grid-item" style="flex: 1 0 25%;">
+                <label for="adjective1">Enter an adjective:</label>
+                <input type="text" id="adjective1"  required placeholder="e.g., amazing">
+            </div>
+            <div class="grid-item" style="flex: 1 0 25%;">
+                <label for="noun2">Enter a plural noun:</label>
+                <input type="text" id="noun2" required placeholder="e.g., classrooms">
+            </div>
+            <div class="grid-item" style="flex: 1 0 25%;">
+                <label for="noun3">Enter a plural noun:</label>
+                <input type="text" id="noun3" required placeholder="e.g., swings">
+            </div>
+            <div class="grid-item" style="flex: 1 0 25%;">
+                <label for="noun4">Enter a plural noun:</label>
+                <input type="text" id="noun4" required placeholder="e.g., pizzas">
+            </div>
+            <div class="grid-item" style="flex: 1 0 25%;">
+                <label for="noun5">Enter a plural noun:</label>
+                <input type="text" id="noun5" required placeholder="e.g., games">
+            </div>
+            <div class="grid-item" style="flex: 1 0 25%;">
+                <label for="presentParticiple">Enter a present participle (verb ending in -ing):</label>
+                <input type="text" id="presentParticiple" required placeholder="e.g., playing">
+            </div>
+            <div class="grid-item" style="flex: 1 0 25%;">
+                <label for="noun6">Enter a plural noun:</label>
+                <input type="text" id="noun6" required placeholder="e.g., ice creams">
+            </div>
+            <div class="grid-item" style="flex: 1 0 25%;">
+                <label for="noun7">Enter a plural noun:</label>
+                <input type="text" id="noun7" required placeholder="e.g., pieces of gum">
+            </div>
+            <div class="grid-item" style="flex: 1 0 25%;">
+                <label for="verb1">Enter a verb:</label>
+                <input type="text" id="verb1" required placeholder="e.g., yell">
+            </div>
+            <div class="grid-item" style="flex: 1 0 25%;">
+                <label for="adjective2">Enter an adjective:</label>
+                <input type="text" id="adjective2" required placeholder="e.g., happy">
+            </div>
+            <div class="grid-item" style="flex: 1 0 25%;">
+                <label for="verb2">Enter a present participle (verb ending in -ing)</label>
+                <input type="text" id="verb2" required placeholder="e.g., running">
+            </div>
+        </div>
+
+        <button type="button" onclick="generateStory()">Generate Story</button>
+
+        <div id="story-container" class="hidden">
+            <p id="story-text"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
