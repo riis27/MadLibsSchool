@@ -1,3 +1,4 @@
+/* Body Styles */
 body {
     font-family: 'Margarine', cursive;
     background: linear-gradient(violet, green);
@@ -8,6 +9,7 @@ body {
     min-height: 100vh;
 }
 
+/* Container Styles */
 .container {
     width: 80%;
     max-width: 600px; 
@@ -60,6 +62,7 @@ input[type="text"] {
     box-sizing: border-box;
 }
 
+/* Button Styles */
 button {
     background-color: violet;
     color: white;
