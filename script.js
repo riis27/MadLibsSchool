@@ -1,4 +1,4 @@
-function generateStory() {
+function createParagraph() {
     const inputs = ['noun1', 'adjective1', 'noun2', 'noun3', 'noun4', 'noun5', 'presentParticiple', 'noun6', 'noun7', 'verb1', 'adjective2', 'verb2'];
     const values = {};
 
@@ -12,7 +12,7 @@ function generateStory() {
         values[input] = element.value;
     }
 
-    // Generate the story
+    // Generate the paragraph
     const story = `
         If I ran the school, I would make a few ${values.noun1} first.
         All classes would be ${values.adjective1}. Second, in all the ${values.noun2},
@@ -25,10 +25,17 @@ function generateStory() {
         would NEVER ${values.verb1} anyone. Everyone was ${values.adjective2}, and every day they went home ${values.verb2}.
     `;
 
-    // Display the story
+    // Display the paragraph
     const storyContainer = document.getElementById('story-container');
     const storyText = document.getElementById('story-text');
     
     storyText.textContent = story;
     storyContainer.classList.remove('hidden');
 }
+
+// HWWWW layou function createParagraph(){
+// var wordOne = document.getElementById
+// ('wordOne').value;
+// var wordTwo = document.getElementById
+// ('wordTwo').value; etc
+// }

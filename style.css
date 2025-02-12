@@ -1,12 +1,25 @@
 /* Body Styles */
 body {
-    font-family: 'Margarine', cursive;
-    background: linear-gradient(violet, green);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color:white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2Nob29sfGVufDB8MHwwfHx8MA%3D%3D) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* Header Style */
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: x-large;
+    color: white;
 }
 
 /* Container Styles */
@@ -18,7 +31,7 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    background: linear-gradient(purple green);
+    
 }
 
 .title {
@@ -46,7 +59,9 @@ h1 {
     border: 1px solid #ccc;
     border-radius: 3px;
     text-align: center;
-    background: -webkit-repeating-radial-gradient(rgb(65, 148, 149), rgb(173, 246, 173));
+    text-size-adjust: 100%;
+    background-color: rgba(84, 130, 230, 0.3) ;
+    background-blend-mode: darken;
 }
 
 label {
@@ -65,26 +80,29 @@ input[type="text"] {
 
 /* Button Styles */
 button {
-    background-color: violet;
+    background-color: rgb(57, 130, 185);
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 3px;
     cursor: pointer;
-    font-family: 'Margarine', cursive;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.2rem;
     margin-top: 20px;
     transition: background-color 0.3s ease;
+    justify-content: center;
 }
 
 button:hover {
-    background-color: greenyellow;
+    background-color: rgb(107, 166, 224);
 }
 
 #story-container {
     margin-top: 20px;
     text-align: center; 
-}
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 150%;
 
 /* Media query for phone dimensions */
 @media (max-width: 600px) {
