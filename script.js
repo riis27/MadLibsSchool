@@ -33,9 +33,3 @@ function createParagraph() {
     storyContainer.classList.remove('hidden');
 }
 
-// HWWWW layou function createParagraph(){
-// var wordOne = document.getElementById
-// ('wordOne').value;
-// var wordTwo = document.getElementById
-// ('wordTwo').value; etc
-// }
